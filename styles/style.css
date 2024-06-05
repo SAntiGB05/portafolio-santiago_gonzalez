@@ -94,7 +94,9 @@ header{
 
 .title-2 h2{
     margin-right: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .information{
@@ -149,3 +151,29 @@ header{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.conteiner-title-3{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.title-3{
+    background-color: brown;
+    color: antiquewhite;
+    width: 45%;
+    height: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center; 
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 2.6rem;
+}
+
+.title-3 h2{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
