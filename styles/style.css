@@ -40,7 +40,7 @@ header{
 }
 
 .none{
-    background-color: bisque;
+    background-color: rgb(212, 195, 173);
     width: 90%;
     height: 1.5rem; 
     border-bottom-left-radius: 20px;
@@ -64,7 +64,7 @@ header{
 }
 
 .title hr{
-    background-color: bisque;
+    background-color: rgb(212, 195, 173);
     height: 1px; 
     border: none;
     margin-bottom: 3rem;
@@ -98,7 +98,7 @@ header{
 }
 
 .information{
-    background-color: aliceblue;
+    background-color: rgb(212, 195, 173);
     height: 35rem;
     border-top-left-radius: 40px;
 }
