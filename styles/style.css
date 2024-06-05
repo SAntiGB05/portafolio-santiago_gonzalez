@@ -177,3 +177,49 @@ header{
     font-size: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.Projects{
+    margin-top: 3rem;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Projects-1{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.conteiner-project-1{
+    width: 90%;
+    background-color: rgb(212, 195, 173);
+}
+
+.Projects-2{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.conteiner-project-2{
+    width: 90%;
+    background-color: rgb(212, 195, 173);
+}
+
+.Projects-3{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.conteiner-project-3{
+    width: 90%;
+    background-color: rgb(212, 195, 173);
+}
