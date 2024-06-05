@@ -99,8 +99,9 @@ header{
 
 .information{
     background-color: rgb(212, 195, 173);
-    height: 35rem;
+    height: 20rem;
     border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -147,3 +148,4 @@ header{
     color: rgb(49, 48, 47);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
