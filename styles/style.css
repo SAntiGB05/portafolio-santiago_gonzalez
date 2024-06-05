@@ -101,4 +101,20 @@ header{
     background-color: rgb(212, 195, 173);
     height: 35rem;
     border-top-left-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.Introduction{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.Introduction p {
+    font-size: 0.9rem;
+    color: rgb(49, 48, 47);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
