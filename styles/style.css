@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: rgb(20, 20, 19);
+}
+
+.img{
+    background-color: brown;
+    height: 11rem;
+    width: 45%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img{
+    height: 9rem;
+    border-radius: 100%;
+}
