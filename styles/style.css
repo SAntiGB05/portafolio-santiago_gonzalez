@@ -10,7 +10,7 @@ body{
 
 header{
     height: 11.7rem;
-    width: 100vw;
+    width: 99.1vw;
     display: flex;
 }
 
@@ -189,7 +189,6 @@ header{
 
 .Projects-1{
     width: 100%;
-    height: 1rem;
     display: flex;
     justify-content: start;
     align-items: start;
@@ -197,7 +196,11 @@ header{
 
 .conteiner-project-1{
     width: 90%;
+    height: 9rem;
+
     background-color: rgb(212, 195, 173);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .Projects-2{
@@ -209,7 +212,11 @@ header{
 
 .conteiner-project-2{
     width: 90%;
+    height: 9rem;
+
     background-color: rgb(212, 195, 173);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 .Projects-3{
@@ -217,9 +224,13 @@ header{
     display: flex;
     justify-content: start;
     align-items: start;
+
 }
 
 .conteiner-project-3{
     width: 90%;
+    height: 9rem;
     background-color: rgb(212, 195, 173);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
