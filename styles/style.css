@@ -10,7 +10,7 @@ body{
 
 header{
     height: 11.7rem;
-    width: 99.1vw;
+    width: 100vw;
     display: flex;
 }
 
@@ -192,12 +192,15 @@ header{
     display: flex;
     justify-content: start;
     align-items: start;
+    flex-direction: column-reverse;
 }
 
 .conteiner-project-1{
     width: 90%;
     height: 9rem;
-
+    display: flex;
+    justify-content: end;
+    align-items: center;
     background-color: rgb(212, 195, 173);
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -213,7 +216,9 @@ header{
 .conteiner-project-2{
     width: 90%;
     height: 9rem;
-
+    display: flex;
+    justify-content: start;
+    align-items: center;
     background-color: rgb(212, 195, 173);
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
@@ -230,7 +235,25 @@ header{
 .conteiner-project-3{
     width: 90%;
     height: 9rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
     background-color: rgb(212, 195, 173);
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+}
+
+.img-projects-1 img{
+    height: 7rem;
+    margin-right: 1rem;
+}
+
+.img-projects-2 img{
+    height: 8rem;
+    margin-left: 1rem;
+}
+
+.img-projects-3 img{
+    height: 5rem;
+    margin-right: 1rem;
 }
