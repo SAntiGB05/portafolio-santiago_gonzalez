@@ -205,6 +205,9 @@ header{
     justify-content: end;
     align-items: center;
     background-color: rgb(212, 195, 173);
+    border-style: solid;
+    border-width: 2px;
+    border-color: brown;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -225,6 +228,9 @@ header{
     justify-content: start;
     align-items: center;
     background-color: rgb(212, 195, 173);
+    border-style: solid;
+    border-width: 2px;
+    border-color: brown;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -246,6 +252,9 @@ header{
     justify-content: end;
     align-items: center;
     background-color: rgb(212, 195, 173);
+    border-style: solid;
+    border-width: 2px;
+    border-color: brown;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -265,4 +274,17 @@ header{
 .img-projects-3 img{
     height: 5rem;
     margin-right: 1rem;
+}
+
+.info-projects{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.info-projects h3{
+    font-size: 1.4rem;
+    color: rgb(49, 48, 47);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
