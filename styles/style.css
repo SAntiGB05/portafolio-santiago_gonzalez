@@ -288,6 +288,7 @@ header{
 
 .info-projects p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(49, 48, 47);
 }
 
 .info-projects h3{
@@ -479,7 +480,7 @@ footer li img{
     .img-technical-skills img{
         height: 3.8rem;
     }
-   }
+}
 
 @media screen and (min-width: 480px) and (max-width: 510px) { 
     .title h1{
@@ -523,4 +524,105 @@ footer li img{
     .img-technical-skills img{
         height: 4.5rem;
     }
-   }
+}
+
+@media screen and (min-width: 800px) and (max-width: 850px) { 
+        .title h1{
+        font-size: 3rem;
+    }
+
+    .title {
+        padding-right: 10rem;
+    }
+
+    .title h2{
+        font-size: 1.3rem;
+    }
+
+    .img{
+        width: 25%;
+    }
+
+    .img img{
+        height: 9.5rem;
+        border-radius: 100%;
+    }
+
+    .conteiner-title{
+        width: 75%;
+    }
+
+    .information p{
+        font-size: 1.2rem;
+        padding: 0 0.5rem 0 0.5rem;
+    }
+
+    .title-2{
+        width: 55%;
+    }
+    
+    .title-2 h2{
+        font-size: 1.3rem;
+    }
+    
+    .title-3{
+        width: 35%;
+    }
+    
+    .title-3 h2{
+        font-size: 1.3rem;
+    }
+
+    .info-projects p{
+        font-size: 1.2rem;
+    }
+
+    .conteiner-project-1{
+        width: 60%;
+    }
+
+    .conteiner-project-2{
+        width: 60%;
+    }
+
+    .conteiner-project-3{
+        width: 60%;
+    }
+
+    .conteiner-technical-skills{
+        height: 22rem;
+    }
+
+    .title-4{
+        width: 45%;
+    }
+    
+    .title-4 h3{
+        font-size: 1.3rem;
+    }
+
+    .img-technical-skills img{
+        height: 6.5rem;
+    }
+
+    .img-technical-skills{
+        padding-left: 3rem;
+    }
+
+    .title-5 h3{
+        font-size: 1.3rem;
+    }
+
+    footer h3{
+        font-size: 1.3rem; 
+    }
+
+    footer li{
+        font-size: 1.18rem;
+    }
+    
+    footer li img{
+        height: 1.8rem;
+        margin-right: 0.5rem;
+    }
+}
