@@ -444,7 +444,7 @@ footer li img{
     margin-right: 0.5rem;
 }
 
-@media screen and (min-width: 430px) and (max-width: 479px) { 
+@media screen and (min-width: 394px) and (max-width: 479px) { 
     .title h1{
         font-size: 2.2rem;
     }
@@ -481,7 +481,7 @@ footer li img{
     }
    }
 
-@media screen and (min-width: 431px) and (max-width: 490px) { 
+@media screen and (min-width: 480px) and (max-width: 510px) { 
     .title h1{
         font-size: 2.4rem;
     }
