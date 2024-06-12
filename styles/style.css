@@ -374,6 +374,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: rgb(49, 48, 47);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .conteiner-title-5{
@@ -526,7 +528,7 @@ footer li img{
     }
 }
 
-@media screen and (min-width: 800px) and (max-width: 850px) { 
+@media screen and (min-width: 800px) and (max-width: 870px) { 
         .title h1{
         font-size: 3rem;
     }
@@ -574,7 +576,8 @@ footer li img{
     }
 
     .info-projects p{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+        padding: 1rem;
     }
 
     .conteiner-project-1{
@@ -609,8 +612,17 @@ footer li img{
         padding-left: 3rem;
     }
 
+    .none-2{
+        width: 35%;
+        margin-top: 1.4rem;
+    }
+
     .title-5 h3{
         font-size: 1.3rem;
+    }
+
+    .conteiner-references p{
+       font-size: 1.1rem; 
     }
 
     footer h3{
