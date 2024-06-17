@@ -185,7 +185,6 @@ header{
     height: 30rem;
     width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -276,6 +275,10 @@ header{
 .img-projects-3 img{
     height: 5rem;
     margin-right: 1rem;
+}
+
+a{
+    text-decoration: none;
 }
 
 .info-projects{
@@ -447,6 +450,12 @@ footer li img{
     margin-right: 0.5rem;
 }
 
+@media screen and (min-width: 370px) and (max-width: 393px) {
+    .Projects{
+        flex-direction: column;
+    }
+}
+
 @media screen and (min-width: 394px) and (max-width: 479px) { 
     .title h1{
         font-size: 2.2rem;
@@ -467,6 +476,10 @@ footer li img{
 
     .conteiner-title{
         width: 60%;
+    }
+
+    .Projects{
+        flex-direction: column;
     }
 
     .information p{
@@ -515,6 +528,11 @@ footer li img{
         margin-top: 1.7rem;
     }
 
+    .Projects{
+        flex-direction: column;
+    }
+
+
     .info-projects p{
         font-size: 1rem;
     }
@@ -529,7 +547,8 @@ footer li img{
 }
 
 @media screen and (min-width: 800px) and (max-width: 870px) { 
-        .title h1{
+
+    .title h1{
         font-size: 3rem;
     }
 
@@ -578,6 +597,10 @@ footer li img{
     .info-projects p{
         font-size: 1.3rem;
         padding: 1rem;
+    }
+
+    .Projects{
+        flex-direction: column;
     }
 
     .conteiner-project-1{
@@ -638,3 +661,391 @@ footer li img{
         margin-right: 0.5rem;
     }
 }
+
+@media screen and (min-width: 1400px) and (max-width: 1800px) { 
+
+header{
+    height: 14rem;
+}
+
+.title h1{
+    font-size: 4rem;
+}
+
+.title {
+    padding-right: 10rem;
+}
+
+.title h2{
+    font-size: 2.3rem;
+}
+
+.img{
+    width: 15%;
+    height: 14rem;
+    margin-left: 6rem;
+}
+
+.img img{
+    height: 11rem;
+    border-radius: 100%;
+}
+
+.conteiner-title{
+    width: 85%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.information{
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.information p{
+    font-size: 1.2rem;
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.conteiner-title-2{
+    margin-bottom: 0.5rem;
+    padding-right: 5.8rem;
+}
+
+.title-2{
+    width: 35%;
+    padding-right: 4rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 1px;
+}
+
+.title-2 h2{
+    font-size: 1.3rem;
+}
+
+.title-3{
+    width: 35%;
+}
+
+.title-3 h2{
+    font-size: 1.3rem;
+}
+
+.Projects{
+    margin-top: 3rem;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.Projects-1{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.conteiner-project-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Projects-2{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.conteiner-project-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Projects-3{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner-project-3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-projects p{
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.references{
+    background-color: rgb(212, 195, 173);
+    width: 80.1%;
+    height: 10rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.conteiner-technical-skills{
+    height: 15rem;
+}
+
+.title-4{
+    width: 45%;
+}
+
+.title-4 h3{
+    font-size: 1.3rem;
+}
+
+.img-technical-skills img{
+    height: 6.5rem;
+}
+
+.img-technical-skills{
+    padding-left: 3rem;
+}
+
+.none-2{
+    width: 35%;
+    margin-top: 1.4rem;
+}
+
+.title-5 h3{
+    font-size: 1.3rem;
+}
+
+.conteiner-references p{
+   font-size: 1.1rem; 
+}
+
+footer h3{
+    font-size: 1.3rem; 
+}
+
+footer li{
+    font-size: 1.18rem;
+}
+
+footer li img{
+    height: 1.8rem;
+    margin-right: 0.5rem;
+}
+}
+
+@media screen and (min-width: 1801px) and (max-width: 2000px) { 
+
+    header{
+        height: 14rem;
+    }
+    
+    .title h1{
+        font-size: 4rem;
+    }
+    
+    .title {
+        padding-right: 10rem;
+    }
+    
+    .title h2{
+        font-size: 2.3rem;
+    }
+    
+    .img{
+        width: 15%;
+        height: 14rem;
+        margin-left: 6rem;
+    }
+    
+    .img img{
+        height: 11rem;
+        border-radius: 100%;
+    }
+    
+    .conteiner-title{
+        width: 85%;
+    }
+    
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .information{
+        width: 88%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .information p{
+        font-size: 1.2rem;
+        padding: 0 0.5rem 0 0.5rem;
+    }
+    
+    .conteiner-title-2{
+        margin-bottom: 0.5rem;
+        padding-right: 7rem;
+    }
+    
+    .title-2{
+        width: 35%;
+        padding-right: 4rem;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 1px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 1px;
+    }
+    
+    .title-2 h2{
+        font-size: 1.3rem;
+    }
+
+    .conteiner-title-3{
+        margin-top: 2.2rem;
+    }
+    
+    .title-3{
+        width: 35%;
+    }
+    
+    .title-3 h2{
+        font-size: 1.3rem;
+    }
+    
+    .Projects{
+        margin-top: 3rem;
+        height: 10rem;
+        width: 100%;
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+    }
+    
+    .Projects-1{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2rem;
+    }
+    
+    .conteiner-project-1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Projects-2{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2rem;
+    }
+    
+    .conteiner-project-2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Projects-3{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .conteiner-project-3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .info-projects p{
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    
+    .references{
+        background-color: rgb(212, 195, 173);
+        width: 65.6%;
+        height: 10rem;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .conteiner-technical-skills{
+        height: 15rem;
+    }
+    
+    .title-4{
+        width: 45%;
+    }
+    
+    .title-4 h3{
+        font-size: 1.3rem;
+    }
+    
+    .img-technical-skills img{
+        height: 6.5rem;
+    }
+    
+    .img-technical-skills{
+        padding-left: 3rem;
+    }
+    
+    .none-2{
+        width: 35%;
+        margin-top: 1.4rem;
+    }
+    
+    .title-5 h3{
+        font-size: 1.3rem;
+    }
+    
+    .conteiner-references p{
+       font-size: 1.1rem; 
+    }
+    
+    footer h3{
+        font-size: 1.3rem; 
+    }
+    
+    footer li{
+        font-size: 1.18rem;
+    }
+    
+    footer li img{
+        height: 1.8rem;
+        margin-right: 0.5rem;
+    }
+    }
