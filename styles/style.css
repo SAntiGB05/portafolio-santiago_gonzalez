@@ -546,6 +546,12 @@ footer li img{
     }
 }
 
+@media screen and (min-width: 311px) and (max-width: 799px) {
+    .Projects{
+        flex-direction: column;
+    }
+}
+
 @media screen and (min-width: 800px) and (max-width: 870px) { 
 
     .title h1{
